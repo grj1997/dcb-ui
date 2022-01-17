@@ -1,5 +1,84 @@
 # 更新日志
 
+### [0.0.6-beta.37](https://github.com/dcb-fe/dcb-ui/compare/v0.0.6-beta.9...v0.0.6-beta.37) (2022-01-17)
+
+### 特性
+
+- 新增 AddressEdit 地址编辑 组件 ([#27](https://github.com/dcb-fe/dcb-ui/issues/27)) ([07533fc](https://github.com/dcb-fe/dcb-ui/commit/07533fc33866b353effba020dcdfb6e4cce2a6c4))
+- 新增 AddressEdit 地址编辑 组件 ([#28](https://github.com/dcb-fe/dcb-ui/issues/28)) ([b147cb0](https://github.com/dcb-fe/dcb-ui/commit/b147cb0890337be50330372bea1e61652d990b49))
+- 新增 AddressList 地址列表组件 ([#24](https://github.com/dcb-fe/dcb-ui/issues/24)) ([c6398b6](https://github.com/dcb-fe/dcb-ui/commit/c6398b6b784290ea6348b884b15a6f27532c3e3e))
+- 新增 Area 省市区选择组件 ([#26](https://github.com/dcb-fe/dcb-ui/issues/26)) ([b16c530](https://github.com/dcb-fe/dcb-ui/commit/b16c530ba1042af8ac805eda2a96e828ed13620a))
+- 新增 Cell 单元格组件 ([#25](https://github.com/dcb-fe/dcb-ui/issues/25)) ([9f169e6](https://github.com/dcb-fe/dcb-ui/commit/9f169e6efa8e6d3d5d80f3440c47ba66cb79c650))
+- 新增 Loading 加载中组件 ([#19](https://github.com/dcb-fe/dcb-ui/issues/19)) ([6975a04](https://github.com/dcb-fe/dcb-ui/commit/6975a04ab7b55358ec6d9c98d13146b4c8012e26))
+- 新增 NavBar 组件 ([#50](https://github.com/dcb-fe/dcb-ui/issues/50)) ([4ed9335](https://github.com/dcb-fe/dcb-ui/commit/4ed93354270ebd6311c40cfbd43615056cc4463f))
+- 新增 Radio 单选框组件 ([#23](https://github.com/dcb-fe/dcb-ui/issues/23)) ([4206068](https://github.com/dcb-fe/dcb-ui/commit/4206068325d6707f256ab681fa7c370b4e9a8440))
+- 新增 Search 搜索组件 ([#16](https://github.com/dcb-fe/dcb-ui/issues/16)) ([fe75891](https://github.com/dcb-fe/dcb-ui/commit/fe758919259a1009b83b1516121bc38b2deb7907))
+- 新增 Stepper 步进器组件 ([#21](https://github.com/dcb-fe/dcb-ui/issues/21)) ([76b5692](https://github.com/dcb-fe/dcb-ui/commit/76b569281f5ba03d537252b6f7d56c94fe95edf3))
+- 新增 steps 组件 ([#48](https://github.com/dcb-fe/dcb-ui/issues/48)) ([a2d28dd](https://github.com/dcb-fe/dcb-ui/commit/a2d28dd5bc3f7307e541e3cca32e0d9048e4fd30))
+- 新增 submit_bar 组件 ([#42](https://github.com/dcb-fe/dcb-ui/issues/42)) ([519bb89](https://github.com/dcb-fe/dcb-ui/commit/519bb89decc0e7252c83dae8eaf2d0957128f348))
+- 新增 swipe 组件 ([#44](https://github.com/dcb-fe/dcb-ui/issues/44)) ([93e1a19](https://github.com/dcb-fe/dcb-ui/commit/93e1a19be64c7b91ab683d2a1b8e4ccd2917c0e0))
+- **Icon:** 新增 3 个图标：plus、minus、search_eliminate ([#14](https://github.com/dcb-fe/dcb-ui/issues/14)) ([e781d8d](https://github.com/dcb-fe/dcb-ui/commit/e781d8db2a3f2f6c72b98be1ba1c84400dae83bf))
+- **skeleton:** 新增骨架屏组件 ([#39](https://github.com/dcb-fe/dcb-ui/issues/39)) ([eeef8e0](https://github.com/dcb-fe/dcb-ui/commit/eeef8e0ed5a49ea7ef0a901eb2ee436af8734062))
+- 新增 Switch 开关组件 ([#22](https://github.com/dcb-fe/dcb-ui/issues/22)) ([8da61b4](https://github.com/dcb-fe/dcb-ui/commit/8da61b4bf59827c296e994d4a6ed675a635b649a))
+
+### 修复
+
+- 修复导航栏刘海屏兼容问题 ([#52](https://github.com/dcb-fe/dcb-ui/issues/52)) ([8e65947](https://github.com/dcb-fe/dcb-ui/commit/8e6594778a97b616ca72d92587260023ee94250c))
+- **GoodsAction:** 添加目录 ([#47](https://github.com/dcb-fe/dcb-ui/issues/47)) ([fc7fa9c](https://github.com/dcb-fe/dcb-ui/commit/fc7fa9c2b9ab10e9e75f4c1f6f4d68a92fd650a4))
+- **SubmitBar:** 修复目录里不显示 SubmitBar 的问题 ([#45](https://github.com/dcb-fe/dcb-ui/issues/45)) ([7816c11](https://github.com/dcb-fe/dcb-ui/commit/7816c11c9b5f40bd6cba9ca5447c869908a542f7))
+- 将 Event 改为 Object ([623e32a](https://github.com/dcb-fe/dcb-ui/commit/623e32a0069d16a30c77862e94c5d1fff15ee357))
+- 修复 address_edit 组件 ([#41](https://github.com/dcb-fe/dcb-ui/issues/41)) ([e01f158](https://github.com/dcb-fe/dcb-ui/commit/e01f1583189b850c3fbd81db577f4dc14a60c15e))
+- **datetime-picker:** 时间选择组件 bug 修复 ([#40](https://github.com/dcb-fe/dcb-ui/issues/40)) ([b7825bf](https://github.com/dcb-fe/dcb-ui/commit/b7825bf87fd951520cc0c5157910606b7631adfb))
+- **datetimePicker:** demo 示例 call 传参方式修改 ([#38](https://github.com/dcb-fe/dcb-ui/issues/38)) ([cb0fe7f](https://github.com/dcb-fe/dcb-ui/commit/cb0fe7f1950acb2ce08cd42328f80fb007441fb6))
+- 修复 AddressEdit 组件 ([#32](https://github.com/dcb-fe/dcb-ui/issues/32)) ([0985d0d](https://github.com/dcb-fe/dcb-ui/commit/0985d0db7033e6b9183ecac0464374718f2156c6))
+- 修复 Cell 组件 ([#31](https://github.com/dcb-fe/dcb-ui/issues/31)) ([8b45c9e](https://github.com/dcb-fe/dcb-ui/commit/8b45c9e2691600f5df41aefb56dfabb2ea6cf271))
+- 修复 Cell 组件 ([#33](https://github.com/dcb-fe/dcb-ui/issues/33)) ([3f68f12](https://github.com/dcb-fe/dcb-ui/commit/3f68f124a705084d25c14cf33f074d7d056e291e))
+- 修复 Radio 组件 ([#30](https://github.com/dcb-fe/dcb-ui/issues/30)) ([716a4da](https://github.com/dcb-fe/dcb-ui/commit/716a4daf8e80052ecf50b1ed3b6b73277f96416d))
+- 修复 Switch 组件 ([#34](https://github.com/dcb-fe/dcb-ui/issues/34)) ([5bf88ca](https://github.com/dcb-fe/dcb-ui/commit/5bf88ca35dc013289538663691b17bbd9f411768))
+- 修复 Switch 组件样式 ([#37](https://github.com/dcb-fe/dcb-ui/issues/37)) ([08eb020](https://github.com/dcb-fe/dcb-ui/commit/08eb020b7e90875fd4ed35ad55a658be0d613ee5))
+- 移除 Switch 测试单元 ([#35](https://github.com/dcb-fe/dcb-ui/issues/35)) ([a89c41f](https://github.com/dcb-fe/dcb-ui/commit/a89c41f6dbfad13469a5bf2abe87c5ed8315214f))
+- **NumberKeyboard:** 代码风格优化 ([#15](https://github.com/dcb-fe/dcb-ui/issues/15)) ([ddbfba1](https://github.com/dcb-fe/dcb-ui/commit/ddbfba1c245e9e7a57ab4927fdaf445fcf281400))
+
+### [0.0.6-beta.36](https://github.com/dcb-fe/dcb-ui/compare/v0.0.6-beta.9...v0.0.6-beta.36) (2022-01-17)
+
+### 修复
+
+- 修复导航栏刘海屏兼容问题 ([#52](https://github.com/dcb-fe/dcb-ui/issues/52)) ([8e65947](https://github.com/dcb-fe/dcb-ui/commit/8e6594778a97b616ca72d92587260023ee94250c))
+- **GoodsAction:** 添加目录 ([#47](https://github.com/dcb-fe/dcb-ui/issues/47)) ([fc7fa9c](https://github.com/dcb-fe/dcb-ui/commit/fc7fa9c2b9ab10e9e75f4c1f6f4d68a92fd650a4))
+- **SubmitBar:** 修复目录里不显示 SubmitBar 的问题 ([#45](https://github.com/dcb-fe/dcb-ui/issues/45)) ([7816c11](https://github.com/dcb-fe/dcb-ui/commit/7816c11c9b5f40bd6cba9ca5447c869908a542f7))
+- 将 Event 改为 Object ([623e32a](https://github.com/dcb-fe/dcb-ui/commit/623e32a0069d16a30c77862e94c5d1fff15ee357))
+- 修复 address_edit 组件 ([#41](https://github.com/dcb-fe/dcb-ui/issues/41)) ([e01f158](https://github.com/dcb-fe/dcb-ui/commit/e01f1583189b850c3fbd81db577f4dc14a60c15e))
+- **datetime-picker:** 时间选择组件 bug 修复 ([#40](https://github.com/dcb-fe/dcb-ui/issues/40)) ([b7825bf](https://github.com/dcb-fe/dcb-ui/commit/b7825bf87fd951520cc0c5157910606b7631adfb))
+- **datetimePicker:** demo 示例 call 传参方式修改 ([#38](https://github.com/dcb-fe/dcb-ui/issues/38)) ([cb0fe7f](https://github.com/dcb-fe/dcb-ui/commit/cb0fe7f1950acb2ce08cd42328f80fb007441fb6))
+- 修复 AddressEdit 组件 ([#32](https://github.com/dcb-fe/dcb-ui/issues/32)) ([0985d0d](https://github.com/dcb-fe/dcb-ui/commit/0985d0db7033e6b9183ecac0464374718f2156c6))
+- 修复 Cell 组件 ([#31](https://github.com/dcb-fe/dcb-ui/issues/31)) ([8b45c9e](https://github.com/dcb-fe/dcb-ui/commit/8b45c9e2691600f5df41aefb56dfabb2ea6cf271))
+- 修复 Cell 组件 ([#33](https://github.com/dcb-fe/dcb-ui/issues/33)) ([3f68f12](https://github.com/dcb-fe/dcb-ui/commit/3f68f124a705084d25c14cf33f074d7d056e291e))
+- 修复 Radio 组件 ([#30](https://github.com/dcb-fe/dcb-ui/issues/30)) ([716a4da](https://github.com/dcb-fe/dcb-ui/commit/716a4daf8e80052ecf50b1ed3b6b73277f96416d))
+- 修复 Switch 组件 ([#34](https://github.com/dcb-fe/dcb-ui/issues/34)) ([5bf88ca](https://github.com/dcb-fe/dcb-ui/commit/5bf88ca35dc013289538663691b17bbd9f411768))
+- 修复 Switch 组件样式 ([#37](https://github.com/dcb-fe/dcb-ui/issues/37)) ([08eb020](https://github.com/dcb-fe/dcb-ui/commit/08eb020b7e90875fd4ed35ad55a658be0d613ee5))
+- 移除 Switch 测试单元 ([#35](https://github.com/dcb-fe/dcb-ui/issues/35)) ([a89c41f](https://github.com/dcb-fe/dcb-ui/commit/a89c41f6dbfad13469a5bf2abe87c5ed8315214f))
+- **NumberKeyboard:** 代码风格优化 ([#15](https://github.com/dcb-fe/dcb-ui/issues/15)) ([ddbfba1](https://github.com/dcb-fe/dcb-ui/commit/ddbfba1c245e9e7a57ab4927fdaf445fcf281400))
+
+### 特性
+
+- 新增 AddressEdit 地址编辑 组件 ([#27](https://github.com/dcb-fe/dcb-ui/issues/27)) ([07533fc](https://github.com/dcb-fe/dcb-ui/commit/07533fc33866b353effba020dcdfb6e4cce2a6c4))
+- 新增 AddressEdit 地址编辑 组件 ([#28](https://github.com/dcb-fe/dcb-ui/issues/28)) ([b147cb0](https://github.com/dcb-fe/dcb-ui/commit/b147cb0890337be50330372bea1e61652d990b49))
+- 新增 AddressList 地址列表组件 ([#24](https://github.com/dcb-fe/dcb-ui/issues/24)) ([c6398b6](https://github.com/dcb-fe/dcb-ui/commit/c6398b6b784290ea6348b884b15a6f27532c3e3e))
+- 新增 Area 省市区选择组件 ([#26](https://github.com/dcb-fe/dcb-ui/issues/26)) ([b16c530](https://github.com/dcb-fe/dcb-ui/commit/b16c530ba1042af8ac805eda2a96e828ed13620a))
+- 新增 Cell 单元格组件 ([#25](https://github.com/dcb-fe/dcb-ui/issues/25)) ([9f169e6](https://github.com/dcb-fe/dcb-ui/commit/9f169e6efa8e6d3d5d80f3440c47ba66cb79c650))
+- 新增 Loading 加载中组件 ([#19](https://github.com/dcb-fe/dcb-ui/issues/19)) ([6975a04](https://github.com/dcb-fe/dcb-ui/commit/6975a04ab7b55358ec6d9c98d13146b4c8012e26))
+- 新增 NavBar 组件 ([#50](https://github.com/dcb-fe/dcb-ui/issues/50)) ([4ed9335](https://github.com/dcb-fe/dcb-ui/commit/4ed93354270ebd6311c40cfbd43615056cc4463f))
+- 新增 Radio 单选框组件 ([#23](https://github.com/dcb-fe/dcb-ui/issues/23)) ([4206068](https://github.com/dcb-fe/dcb-ui/commit/4206068325d6707f256ab681fa7c370b4e9a8440))
+- 新增 Search 搜索组件 ([#16](https://github.com/dcb-fe/dcb-ui/issues/16)) ([fe75891](https://github.com/dcb-fe/dcb-ui/commit/fe758919259a1009b83b1516121bc38b2deb7907))
+- 新增 Stepper 步进器组件 ([#21](https://github.com/dcb-fe/dcb-ui/issues/21)) ([76b5692](https://github.com/dcb-fe/dcb-ui/commit/76b569281f5ba03d537252b6f7d56c94fe95edf3))
+- 新增 steps 组件 ([#48](https://github.com/dcb-fe/dcb-ui/issues/48)) ([a2d28dd](https://github.com/dcb-fe/dcb-ui/commit/a2d28dd5bc3f7307e541e3cca32e0d9048e4fd30))
+- 新增 submit_bar 组件 ([#42](https://github.com/dcb-fe/dcb-ui/issues/42)) ([519bb89](https://github.com/dcb-fe/dcb-ui/commit/519bb89decc0e7252c83dae8eaf2d0957128f348))
+- 新增 swipe 组件 ([#44](https://github.com/dcb-fe/dcb-ui/issues/44)) ([93e1a19](https://github.com/dcb-fe/dcb-ui/commit/93e1a19be64c7b91ab683d2a1b8e4ccd2917c0e0))
+- 新增手机预览方式 ([bf20061](https://github.com/dcb-fe/dcb-ui/commit/bf20061f1306a275e3aa06bffc712ffc0b3e33be))
+- **Icon:** 新增 3 个图标：plus、minus、search_eliminate ([#14](https://github.com/dcb-fe/dcb-ui/issues/14)) ([e781d8d](https://github.com/dcb-fe/dcb-ui/commit/e781d8db2a3f2f6c72b98be1ba1c84400dae83bf))
+- **skeleton:** 新增骨架屏组件 ([#39](https://github.com/dcb-fe/dcb-ui/issues/39)) ([eeef8e0](https://github.com/dcb-fe/dcb-ui/commit/eeef8e0ed5a49ea7ef0a901eb2ee436af8734062))
+- 新增 Switch 开关组件 ([#22](https://github.com/dcb-fe/dcb-ui/issues/22)) ([8da61b4](https://github.com/dcb-fe/dcb-ui/commit/8da61b4bf59827c296e994d4a6ed675a635b649a))
+
 ### [0.0.6-beta.35](https://github.com/dcb-fe/dcb-ui/compare/v0.0.6-beta.34...v0.0.6-beta.35) (2021-12-28)
 
 ### 修复
